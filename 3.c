@@ -48,6 +48,7 @@ fscanf(fp, "%d", &p_d1);
 fscanf(fp, "%d", &d_d1);
 fscanf(fp, "%d", &k_d1);
 fgets(decision2, 201, fp);
+fgets(decision2, 201, fp);
 fscanf(fp, "%d", &p_d2);
 fscanf(fp, "%d", &d_d2);
 fscanf(fp, "%d", &k_d2);
