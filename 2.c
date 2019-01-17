@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//A LITTLE BIG COMPLETE PROGRAM//
 struct node{
 char issue[200];
 char decision1[200];
@@ -76,7 +75,6 @@ counter++;
 close(fp);
 My_list(&list, counter);
 
+}
 
-}
-}
 
