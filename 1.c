@@ -19,12 +19,12 @@ char decision2[200], int people_decision2, int darbar_decision2, int khazaneh_de
 {
 struct node *nn;
 nn=(struct node*)malloc(sizeof(struct node));
-strcpy(issue, nn->issue);
-strcpy(decision1, nn->decision1);
+strcpy(nn->issue, issue);
+strcpy(nn->decision1, decision1);
 nn->people_decision1=people_decision1;
 nn->darbar_decision1=darbar_decision1;
 nn->khazaneh_decision1=khazaneh_decision1;
-strcpy(decision2, nn->decision2);
+strcpy(nn->decision2, decision2);
 nn->people_decision2=people_decision2;
 nn->darbar_decision2=darbar_decision2;
 nn->khazaneh_decision2=khazaneh_decision2;
